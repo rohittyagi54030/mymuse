@@ -4,8 +4,6 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
-from selenium.webdriver import Keys
-from selenium.webdriver.common.alert import Alert
 import time
 from pyvirtualdisplay import Display
 from sys import platform
@@ -13,9 +11,9 @@ import os
 import datetime
 import random
 
-runBatFile = "yes"
+runBatFile = "no"
 autocontrol = 'yes'
-refresh = 'no'
+refresh = 'yes'
 
 
 runs = 100
