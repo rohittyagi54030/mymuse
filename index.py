@@ -1,3 +1,5 @@
+import os
+os.system("pip3 install -r requirements.txt")
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.action_chains import ActionChains
@@ -12,7 +14,7 @@ import datetime
 import random
 
 runBatFile = "yes"
-autocontrol = 'no'
+autocontrol = 'yes'
 refresh = 'no'
 
 
